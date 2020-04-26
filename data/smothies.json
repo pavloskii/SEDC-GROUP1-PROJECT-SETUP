@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Banana Smoothie",
+        "image": "https://cdn.pixabay.com/photo/2019/11/14/07/17/smoothie-4625476_960_720.jpg",
+        "desription": "Ova smothie e so banana"
+    },
+    {
+        "name": "Strawberry Smoothie",
+        "image": "https://cdn.pixabay.com/photo/2019/11/14/07/17/smoothie-4625476_960_720.jpg",
+        "desription": "Ova smothie e so Strawberry"
+    },
+    {
+        "name": "Peanut Smoothie",
+        "image": "https://cdn.pixabay.com/photo/2019/11/14/07/17/smoothie-4625476_960_720.jpg",
+        "desription": "Ova smothie e so Peanut"
+    },
+    {
+        "name": "Orange Smoothie",
+        "image": "https://cdn.pixabay.com/photo/2019/11/14/07/17/smoothie-4625476_960_720.jpg",
+        "desription": "Ova smothie e so Orange"
+    }
+]
