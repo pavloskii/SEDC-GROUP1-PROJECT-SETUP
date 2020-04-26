@@ -18,5 +18,10 @@
         "name": "Orange Smoothie",
         "image": "https://cdn.pixabay.com/photo/2019/11/14/07/17/smoothie-4625476_960_720.jpg",
         "desription": "Ova smothie e so Orange"
+    },
+    {
+        "name": "Novo Smoothie",
+        "image": "https://cdn.pixabay.com/photo/2019/11/14/07/17/smoothie-4625476_960_720.jpg",
+        "desription": "Ova smothie e so Orange"
     }
 ]
