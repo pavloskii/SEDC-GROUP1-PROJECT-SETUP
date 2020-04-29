@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/image-upload.css" />
+  </head>
+  <body>
+    <form onsubmit="submitForm(event)">
+      <input type="text" name="title" placeholder="Image title..." />
+      <input
+        type="text"
+        name="description"
+        placeholder="Image description..."
+      />
+      <!-- getImageUrl prima 3 parametri 
+        30 - resize percent - kolku procenti da ja namali/zgolemi slikata. 100 e da ja ostavi ista. Moja preporaka ostavete go na 30 za da ne ja prepolnite bazata na firebase premnogu brzo
+        0.3 - image quality - kvalitetot na slikata od 0 do 1, kade 1 e da se zadrzi istiot kvalitet a primer 0.5 da se namali za pola.
+        showSelectedImage - e ime na funkcija koja vie treba da ja kreirate i da ja pustite kako parametar. Vo slucajov koristam imenuvana funkcija no moze da koristite i anonimna ako sakate
+       -->
+      <input
+        type="file"
+        name="image"
+        onchange="getImageUrl(30, 0.3, showSelectedImage)"
+      />
+      <!-- ova e mestoto kaj sto ke ja prikazeme selektiranata slika (prvicno stavite neka ima nekoja defaultna slika) -->
+      <img src="images/image-upload-placeholder.jpg" id="selected-image" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Vo skriptata imageUpload se naogja mojata funkcija getImageUrl koja ja vrakja slikata kako URL-->
+    <script src="js/get-image-url.js"></script>
+    <script src="js/image-upload.js"></script>
+  </body>
+</html>
