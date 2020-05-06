@@ -1,5 +1,3 @@
-console.log("Javscript is connected");
-
 //За да ги земете податоците ќе го повикате URL-то шо го копиравте со помош на FETCH
 fetch(
   "https://raw.githubusercontent.com/pavloskii/SEDC-GROUP1-PROJECT-SETUP/master/data/smoothies.json"

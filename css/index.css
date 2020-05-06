@@ -4,5 +4,9 @@ h1 {
 }
 
 body {
-  background-color: pink;
+  background-color: gray;
+}
+
+header {
+  margin-bottom: 90px;
 }

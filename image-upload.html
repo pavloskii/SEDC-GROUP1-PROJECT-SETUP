@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/image-upload.css" />
   </head>
   <body>
+    <header></header>
+
     <form onsubmit="submitForm(event)">
       <input type="text" name="title" placeholder="Image title..." />
       <input
@@ -29,7 +36,10 @@
       <button type="submit">Submit</button>
     </form>
 
+    <footer></footer>
+
     <!-- Vo skriptata imageUpload se naogja mojata funkcija getImageUrl koja ja vrakja slikata kako URL-->
+    <script src="js/header-and-footer.js"></script>
     <script src="js/get-image-url.js"></script>
     <script src="js/image-upload.js"></script>
   </body>
