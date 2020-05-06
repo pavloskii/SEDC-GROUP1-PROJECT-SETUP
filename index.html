@@ -13,14 +13,35 @@
   <body>
     <header></header>
 
-    <main>
-      <h1>This is the home page!</h1>
-      <p>Let's set the header and footer</p>
+    <main class="container">
+      <h1>Search for some tasty smoothies!</h1>
+
+      <!-- Search input -->
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Search for smoothies"
+          id="search-input"
+        />
+        <div class="input-group-append">
+          <button
+            class="btn btn-primary"
+            type="button"
+            onclick="searchSmoothiesByIngredient()"
+          >
+            Search by inredient
+          </button>
+        </div>
+      </div>
+
+      <!-- All the smoothies -->
+      <div id="smoothies" class="card-columns"></div>
     </main>
 
     <footer></footer>
 
     <script src="js/header-and-footer.js"></script>
-    <script src="js/index.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
