@@ -1,27 +1,37 @@
 [
     {
         "name": "Banana Smoothie",
+        "category": "Protein",
         "image": "https://cdn.pixabay.com/photo/2019/11/14/07/17/smoothie-4625476_960_720.jpg",
-        "desription": "Ova smothie e so banana"
+        "desription": "Ova smothie e so banana",
+        "ingredients": "banana | milk | sugar"
     },
     {
         "name": "Strawberry Smoothie",
+        "category": "Glow",
         "image": "https://cdn.pixabay.com/photo/2019/11/14/07/17/smoothie-4625476_960_720.jpg",
-        "desription": "Ova smothie e so Strawberry"
+        "desription": "Ova smothie e so Strawberry",
+        "ingredients": "strawberry | milk | sugar"
     },
     {
         "name": "Peanut Smoothie",
+        "category": "Healthy",
         "image": "https://cdn.pixabay.com/photo/2019/11/14/07/17/smoothie-4625476_960_720.jpg",
-        "desription": "Ova smothie e so Peanut"
+        "desription": "Ova smothie e so Peanut",
+        "ingredients": "Peanut | milk | banana"
     },
     {
         "name": "Orange Smoothie",
+        "category": "Calm",
         "image": "https://cdn.pixabay.com/photo/2019/11/14/07/17/smoothie-4625476_960_720.jpg",
-        "desription": "Ova smothie e so Orange"
+        "desription": "Ova smothie e so Orange",
+        "ingredients": "orange | lemon | carrot"
     },
     {
         "name": "Novo Smoothie",
+        "category": "Sugarfree",
         "image": "https://cdn.pixabay.com/photo/2019/11/14/07/17/smoothie-4625476_960_720.jpg",
-        "desription": "Ova smothie e so Orange"
+        "desription": "Ova smothie e so Orange",
+        "ingredients": "orange | spinach | water | carrot"
     }
 ]
